@@ -10,8 +10,6 @@ import java.io.IOException;
 public class Escrita
 {
     
-
- 
     public static void main(String[] args) {
         try {
             FileWriter writer = new FileWriter("/Users/zecarlos/Test.txt", true);
