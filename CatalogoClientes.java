@@ -11,7 +11,8 @@ public class CatalogoClientes
     private TreeSet<Codigo> catalogo;
     private int numClie;
 
-    public CatalogoClientes( ){
+    public CatalogoClientes( )
+    {
         this.numClie = 0;
         this.catalogo = new TreeSet<Codigo>(new CodigoComparator());
     }
