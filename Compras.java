@@ -5,8 +5,7 @@ import java.util.*;
  * @author Grupo 77 LEI
  * @version 1.0 20/05/2015
  */
-public class Compras
-{
+public class Compras{
     // variáveis de instância
     private int[] totalCompras;
     private TreeMap<Codigo,TreeMap<Codigo,Compra>> comprasProdutos;
