@@ -1,7 +1,6 @@
 import java.util.Comparator;
 import java.io.Serializable;
 
-
 /**
  * Escreva a descrição da classe StringComparator aqui.
  * 
