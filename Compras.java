@@ -12,7 +12,6 @@ public class Compras
     private TreeMap<Codigo,TreeMap<Codigo,Compra>> comprasProdutos;
     private TreeMap<Codigo,TreeMap<Codigo,Compra>> comprasClientes;
 
-
     //construtores
     public Compras()
     {
