@@ -13,7 +13,6 @@ public class Compra implements Comparable<Compra>
     private int[] numVendasP;
     private double[] faturadoN;
     private double[] faturadoP;
-
     //Construtores
     public Compra()
     {
@@ -158,7 +157,6 @@ public class Compra implements Comparable<Compra>
         else return -1;
     }
 
-
     public void clear (){
         int i;
         for(i=0;i<12;i++){
@@ -180,7 +178,7 @@ public class Compra implements Comparable<Compra>
                 this.faturadoN.equals(c.getFaturadoN()) &&
                 this.faturadoP.equals(c.getFaturadoP());
     }
-    
+
     public Compra clone(){
         return new Compra(this);
     }
